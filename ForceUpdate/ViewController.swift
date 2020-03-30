@@ -9,7 +9,6 @@
 import UIKit
 
 class Constants: NSObject {
-    
     /// AppDelegate
     static let appDelegate      =   UIApplication.shared.delegate as! AppDelegate
     /// App store url
@@ -88,7 +87,6 @@ class ViewController: UIViewController {
             }
             myAlert.addAction(cancelAction)
         }
-        
         myAlert.addAction(okAction)
         self.present(myAlert, animated: true, completion: nil)
     }
